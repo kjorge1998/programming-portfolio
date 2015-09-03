@@ -27,11 +27,11 @@ def plural_noun():
 	
 def main():
 	while True:
-	name = raw_input("Enter your name: ")
-	if name == "q":
-		break
-	random.seed(name)
-	print title(), name, "and the", adj(), plural_noun()
+		name = raw_input("Enter your name: ")
+		if name == "q":
+			break
+		random.seed(name)
+		print title(), name, "and the", adj(), plural_noun()
 	
-		main()
+main()
 			
